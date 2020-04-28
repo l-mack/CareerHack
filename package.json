@@ -1,16 +1,19 @@
 {
-  "name": "2020-04-28-Juno-CareerHack-Week-master",
+  "name": "2020-04-28-Juno-CareerHack-Week",
   "version": "1.0.0",
-  "description": "## Today's Objective: Markdown Editor",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "index.js",
+  "repository": "git@github.com:monarchwadia/2020-04-28-Juno-CareerHack-Week.git",
+  "author": "Monarch Wadia <monarch@zeroprojects.ca>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "//": "Added nodemon. To run, I can do `npm run dev`",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
